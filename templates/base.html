@@ -1,8 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
   <head>
       <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{{ titulo }} - Name</title>
       {% block head %}
       {% endblock %}
   </head>
