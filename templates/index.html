@@ -1,20 +1,26 @@
 {% extends "base.html" %}
 
 {% block body %}
-<nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <a class="navbar-brand" href="{{ url_for('index') }}">Fixed navbar</a>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark position-static">
+    <a class="navbar-brand h1 mb-0" href="{{ url_for('index') }}">Fulano</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-      </ul>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
 </nav>
+</header>
+
+<div>
+  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on left</button>
+</div>
 {% endblock %}
