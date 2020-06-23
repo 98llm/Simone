@@ -1,3 +1,16 @@
+$color-nav: #359AD0;
+$font-nav:  #fff;
+$btn-color: #3735D0;
+
+.bg-nav   { background-color: $color-nav;
+}
+
+.nav-item { color: $font-nav;
+}
+
+.btn-color{ background-color: $btn-color !important;
+            color: $font-nav !important;
+}
 
 //Bootstrap import
 @import "../../node_modules/bootstrap/scss/bootstrap"

@@ -1,4 +1,17 @@
 @charset "UTF-8";
+.bg-nav {
+  background-color: #359AD0;
+}
+
+.nav-item {
+  color: #fff;
+}
+
+.btn-color {
+  background-color: #3735D0 !important;
+  color: #fff !important;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
