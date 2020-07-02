@@ -1,7 +1,7 @@
 {
   "name": "simone",
   "version": "1.0.0",
-  "description": "",
+  "description": "Info-site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/98llm/Simone#readme",
   "dependencies": {
-    "bootstrap": "^4.5.0"
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
