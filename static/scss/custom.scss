@@ -1,11 +1,19 @@
 
-$color-nav: #359AD0;
+$nav-color: #1E90FF;
 $font-nav:  #fff;
 $btn-color: #3735D0;
+$enable-gradients: default;
 
-.bg-nav   { background-color: $color-nav;
+//nav-bar color
+.bg-nav{ 
+    background: linear-gradient(9deg, rgba(0,95,255,1) 0%, rgba(0,121,255,1) 19%, rgba(12,106,245,1) 41%, rgba(118,53,208,1) 100%);
+
 }
 
+//brand color
+.bg-nav .navbar-brand{
+    color: #fff;
+}
 
 // cor botão sem hover
 .navbar-nav .nav-link {
@@ -16,7 +24,7 @@ $btn-color: #3735D0;
     color: rgba(219, 219, 219, 0.9) !important;
 }
 
-.btn-color{ background-color: $btn-color !important;
+.btn-color{ background: $btn-color !important;
             color: $font-nav !important;
 }
 
@@ -24,6 +32,5 @@ $btn-color: #3735D0;
     font-weight: 600 !important;
     text-transform: uppercase;
 }
-
 //Bootstrap import
 @import "../../node_modules/bootstrap/scss/bootstrap"
