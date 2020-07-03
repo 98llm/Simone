@@ -16,7 +16,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand bg-nav bg-nav">
+    <nav class="navbar navbar-expand bg-nav">
       <div class="container">
         <a class="navbar-brand h1 mb-0" href="{{ url_for('index') }}">BRAND</a>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -28,15 +28,16 @@
                 Planos de sáude
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Médico</a>
+                <a class="dropdown-item " href="#">Médico</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Odontológico</a>
               </div>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a type="button" class="btn btn-color" href="#">Solicite um orçamento</a>
+            <li class="nav-item ">
+              <a type="button" class="btn btn-color d-none d-sm-block" href="#">Solicite um orçamento</a>
+              <a type="button" class="btn btn-color d-xs-block d-sm-none d-md-none" href="#">Contato</a>
             </li>
           </ul>
         </div>
